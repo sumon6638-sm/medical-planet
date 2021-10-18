@@ -1,0 +1,44 @@
+[
+    {
+        "id": "drug863",
+        "serviceTitle": "Drug / Medicine",
+        "cost": 1056,
+        "description": "Medicine is the science[1] and practice[2] of caring for a patient, managing the diagnosis, prognosis, prevention, treatment, palliation of their injury or disease, and promoting their health. Medicine encompasses a variety of health care practices evolved to maintain and restore health by the prevention and treatment of illness.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJSLdQIffblqVVtpxl_7YawpVtGsI0Cw2lwwPQhYFL3ikz19jDvUviSoMI-0EtVdRpKw&usqp=CAU"
+    },
+    {
+        "id": "checkup235",
+        "serviceTitle": "Medical Checkup",
+        "cost": 5810,
+        "description": "In a physical examination, medical examination, or clinical examination, a medical practitioner examines a patient for any possible medical signs or symptoms of a medical condition. It generally consists of a series of questions about the patient's medical history followed by an examination based on the reported symptoms.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Attending_surgeon%27s_office%3B_examination_room%2C_Washington%2C_D.C._World_War_1_%281910s%29.jpg/280px-Attending_surgeon%27s_office%3B_examination_room%2C_Washington%2C_D.C._World_War_1_%281910s%29.jpg"
+    },
+    {
+        "id": "dental462",
+        "serviceTitle": "Dental Care",
+        "cost": 1056,
+        "description": "Dental care is the maintenance of healthy teeth and may refer to: Oral hygiene, the practice of keeping the mouth and teeth clean in order to prevent dental disorders, Dentistry, the professional care of teeth, including professional oral hygiene and dental surgery, Oral Surgery, any of a number of medical procedures that involve artificially modifying dentition; in other words, surgery of the teeth and jaw bones",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/US_Navy_060522-N-9389D-149_Hospital_Corpsman_3rd_Class_Roland_Alferos_grabs_a_suture_from_a_dental_tray_while_assisting_with_oral_surgery_aboard_USS_Kitty_Hawk_%28CV_63%29.jpg/220px-thumbnail.jpg"
+    },
+    {
+        "id": "cardiology213",
+        "serviceTitle": "Cardiology",
+        "cost": 5425,
+        "description": "Cardiology (from Greek καρδίᾱ kardiā, 'heart' and -λογία -logia, 'study') is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system. The field includes medical diagnosis and treatment of congenital heart defects, coronary artery disease, heart failure, valvular heart disease and electrophysiology.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Heart_diagram_blood_flow_en.svg/225px-Heart_diagram_blood_flow_en.svg.png"
+    },
+    {
+        "id": "laboratory340",
+        "serviceTitle": "Laboratory Service",
+        "cost": 4920,
+        "description": "A medical laboratory or clinical laboratory is a laboratory where tests are carried out on clinical specimens to obtain information about the health of a patient to aid in diagnosis, treatment, and prevention of disease.[1] Clinical Medical laboratories are an example of applied science, as opposed to research laboratories that focus on basic science, such as found in some academic institutions.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/LabMachines.jpg/250px-LabMachines.jpg"
+    },
+    {
+        "id": "vaccine129",
+        "serviceTitle": "Vaccination",
+        "cost": 982,
+        "description": "Vaccination is the administration of a vaccine to help the immune system develop protection from a disease. Vaccines contain a microorganism or virus in a weakened, live or killed state, or proteins or toxins from the organism. In stimulating the body's adaptive immunity, they help prevent sickness from an infectious disease. When a sufficiently large percentage of a population has been vaccinated, herd immunity results. Herd immunity protects those who may be immunocompromised and cannot get a vaccine because even a weakened version would harm them.",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Young_girl_about_to_receive_a_vaccine_in_her_upper_arm_%2848545990252%29.jpg/280px-Young_girl_about_to_receive_a_vaccine_in_her_upper_arm_%2848545990252%29.jpg"
+    }
+]

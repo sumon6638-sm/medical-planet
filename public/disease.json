@@ -1,0 +1,51 @@
+[
+  {
+    "id": "cancer841",
+    "treatmentTitle": "Cancer Oncology",
+    "cost": 4268,
+    "description": "Cancers are often managed through discussion on multi-disciplinary cancer conferences[8] where medical oncologists, surgical oncologists, radiation oncologists, pathologists, radiologists, and organ-specific oncologists meet to find the best possible management for an individual patient considering the physical, social, psychological, emotional, and financial status of the patient.[9] It is very important for oncologists to keep up-to-date with the latest advancements in oncology, as changes in the management of cancer are quite common.",
+    "img": "https://www.froedtert.com/sites/default/files/image/2021-09/ref-physician-blog-cardio-oncology.jpg"
+  },
+  {
+    "id": "dental425",
+    "treatmentTitle": "Dental Surgery",
+    "cost": 3845,
+    "description": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the oral cavity (the mouth), commonly in the dentition (development and arrangement of teeth) as well as the oral mucosa, and of adjacent and related structures and tissues, particularly in associated maxillofacial (jaw and facial) area.",
+    "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/2291/production/_110894880_gettyimages-1055182908.jpg"
+  },
+  {
+    "id": "diagnose463",
+    "treatmentTitle": "Diagnose & Research",
+    "cost": 2642,
+    "description": "Diagnosis is the identification of the nature and cause of a certain phenomenon. Diagnosis is used in many different disciplines, with variations in the use of logic, analytics, and experience, to determine 'cause and effect'. In systems engineering and computer science, it is typically used to determine the causes of symptoms, mitigations, and solutions.[1]",
+    "img": "https://theengineer.markallengroup.com/production/content/uploads/2019/02/oncology.jpg"
+  },
+  {
+    "id": "endocrinology682",
+    "treatmentTitle": "Endocrinology",
+    "cost": 6725,
+    "description": "The endocrine system consists of several glands, all in different parts of the body, that secrete hormones directly into the blood rather than into a duct system. Therefore, endocrine glands are regarded as ductless glands. Hormones have many different functions and modes of action; one hormone may have several effects on different target organs, and, conversely, one target organ may be affected by more than one hormone.",
+    "img": "https://5.imimg.com/data5/MK/SZ/ND/GLADMIN-35691449/selection-036-500x500.png"
+  },
+  {
+    "id": "pregnancy925",
+    "treatmentTitle": "Pregnancy & Births",
+    "cost": 9348,
+    "description": "Pregnancy, also known as gestation, is the time during which one or more offspring develops inside a woman. A multiple pregnancy involves more than one offspring, such as with twins.[13] Pregnancy usually occurs by sexual intercourse, but can also occur through assisted reproductive technology procedures.[6] A pregnancy may end in a live birth, a spontaneous miscarriage, an induced abortion, or a stillbirth. Childbirth typically occurs around 40 weeks from the start of the last menstrual period (LMP).",
+    "img": "https://www.fhi.no/globalassets/bilder/ny-temasider/svangerskap-og-fodsel---shutterstock_584787691.jpg?preset=mainbodywidth"
+  },
+  {
+    "id": "eye726",
+    "treatmentTitle": "Eye Care",
+    "cost": 7346,
+    "description": "Eyes are organs of the visual system. They provide animals with vision, the ability to receive and process visual detail, as well as enabling several photo response functions that are independent of vision. Eyes detect light and convert it into electro-chemical impulses in neurons.",
+    "img": "https://www.myopiainstitute.com/wp-content/uploads/2018/06/file-2-1280x720.jpg"
+  },
+  {
+    "id": "kidney453",
+    "treatmentTitle": "Chronic kidney disease",
+    "cost": 11056,
+    "description": "Chronic kidney disease (CKD) is a type of kidney disease in which there is gradual loss of kidney function over a period of months to years.[2][5] Initially there are generally no symptoms; later, symptoms may include leg swelling, feeling tired, vomiting, loss of appetite, and confusion.[2] Complications include an increased risk of heart disease, high blood pressure, bone disease, and anemia.",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbJSLdQIffblqVVtpxl_7YawpVtGsI0Cw2lwwPQhYFL3ikz19jDvUviSoMI-0EtVdRpKw&usqp=CAU"
+  }
+]
