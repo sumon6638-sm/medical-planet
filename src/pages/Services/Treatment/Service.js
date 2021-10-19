@@ -10,11 +10,11 @@ const Service = () => {
     useEffect(() => {
         fetch('/disease.json')
             .then(res => res.json())
-        .then(data=> setData(data))
+            .then(data => setData(data));
     }, [])
     
     const disease = data.filter(find => find.id === details)
-    console.log(disease);
+    // console.log(disease);
 
     return (
         <div className="container card">

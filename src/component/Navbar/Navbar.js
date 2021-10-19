@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../hook/useAuth';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -8,6 +9,9 @@ const Navbar = () => {
         border: '2px solid yellow',
         borderRadius: '5px',
     }
+
+    const { user, logOut } = useAuth();
+    console.log(user);
 
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-nav">
@@ -47,9 +51,24 @@ const Navbar = () => {
                         </li>
                     </ul>
 
-                    <button className='btn btn-outline-warning me-3'><i class="fas fa-sign-in-alt"></i> Login</button>
+                    {
+                        user.email &&
+                        <span style={{ color: 'white', marginRight: '10px' }}>Hello {user.displayName} </span>
+                    }
 
-                    <button className='btn btn-outline-warning'><i class="fas fa-user-plus"></i> Registration</button>
+                    {
+                        user?.email ?
+                            <button onClick={logOut} className='btn btn-outline-warning me-3'><img className='img-fluid rounded-circle' style={{height:'35px'}} src={user.photoURL} alt="" /> Log Out</button> :
+                            <div>
+                                <Link to='/login'>
+                                    <button className='btn btn-outline-warning me-3'><i class="fas fa-sign-in-alt"></i> Login</button>
+                                </Link>
+                                <Link to='/register'>
+                                    <button className='btn btn-outline-warning'><i class="fas fa-user-plus"></i> Registration</button>
+                                </Link>
+                            </div>
+
+                    }
                 </div>
             </div>
         </nav>

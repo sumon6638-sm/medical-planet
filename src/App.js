@@ -11,59 +11,78 @@ import Treatment from './pages/Services/Treatment/Treatment';
 import Service from './pages/Services/Treatment/Service';
 import MediServiceDetails from './pages/Services/MedicalService/MediServiceDetails';
 import NotFound from './pages/NotFound/NotFound';
+import Login from './pages/Logins/Login/Login';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './pages/Logins/PrivateRoute/PrivateRoute';
+import Register from './pages/Logins/Registration/Register';
+import GetAppointment from './pages/Doctors/GetAppointment/GetAppointment';
 
 
 
 function App() {
   return (
     <div className="">
-      <Router>
-        <Navbar></Navbar>
+      <AuthProvider>
+        <Router>
+          <Navbar></Navbar>
 
-        <Switch>
-          <Route exact path='/'>
-            <Home></Home>
-          </Route>
+          <Switch>
+            <Route exact path='/'>
+              <Home></Home>
+            </Route>
 
-          <Route exact path='/home'>
-            <Home></Home>
-          </Route>
+            <Route exact path='/home'>
+              <Home></Home>
+            </Route>
 
-          <Route exact path='/treatment'>
-            <Treatment></Treatment>
-          </Route>
+            <Route exact path='/treatment'>
+              <Treatment></Treatment>
+            </Route>
 
-          <Route exact path='/treatment/:details'>
-            <Service></Service>
-          </Route>
+            <Route exact path='/login'>
+              <Login></Login>
+            </Route>
 
-          <Route exact path='/medicalServices'>
-            <MedicalService></MedicalService>
-          </Route>
-          
-          <Route exact path='/medicalService/:details'>
-            <MediServiceDetails></MediServiceDetails>
-          </Route>
+            <Route exact path='/register'>
+              <Register></Register>
+            </Route>
 
-          <Route exact path='/doctors'>
-            <Doctors></Doctors>
-          </Route>
+            <PrivateRoute exact path='/treatment/:details'>
+              <Service></Service>
+            </PrivateRoute>
 
-          <Route exact path='/about'>
-            <About></About>
-          </Route>
+            <Route exact path='/medicalServices'>
+              <MedicalService></MedicalService>
+            </Route>
 
-          <Route exact path='/contact'>
-            <Contact></Contact>
-          </Route>
+            <PrivateRoute exact path='/medicalService/:details'>
+              <MediServiceDetails></MediServiceDetails>
+            </PrivateRoute>
 
-          <Route path='*'>
-            <NotFound></NotFound>
-          </Route>
-        </Switch>
+            <Route exact path='/doctors'>
+              <Doctors></Doctors>
+            </Route>
 
-        <Footer></Footer>
-      </Router>
+            <Route exact path='/doctor/:appoint'>
+              <GetAppointment></GetAppointment>
+            </Route>
+
+            <Route exact path='/about'>
+              <About></About>
+            </Route>
+
+            <Route exact path='/contact'>
+              <Contact></Contact>
+            </Route>
+
+            <Route path='*'>
+              <NotFound></NotFound>
+            </Route>
+          </Switch>
+
+          <Footer></Footer>
+        </Router>
+      </AuthProvider>
     </div>
   );
 }
