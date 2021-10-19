@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Jeff Bezos",
+        "net_worth": 177,
+        "rank": 1,
+        "age": 57,
+        "country": "United States",
+        "source": "Mathematics",
+        "industry": "Technology",
+        "img": "https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+    },
+    {
+        "name": "Elon Musk",
+        "net_worth": 151,
+        "rank": 2,
+        "age": 49,
+        "country": "United States",
+        "source": "Tesla, SpaceX",
+        "industry": "Python",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAfuUt5gwIX8pNv5XxRaPqJMOIPuM5n0C54ZKOypb_NquVW7_-XGMFgoudsHgu2CqL25w&usqp=CAU"
+    },
+    {
+        "name": "Bernard Arnault & family",
+        "net_worth": 150,
+        "rank": 3,
+        "age": 72,
+        "country": "France",
+        "source": "Mathematics",
+        "industry": "Fashion & Retail",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_mNljtmWlXS5kCnwGT_sXEOUtj1ug25mCNVFMS9G7LLB4kaea_4NhTnN5HTaDz-v5o-0&usqp=CAU"
+    },
+    {
+        "name": "Bill Gates",
+        "net_worth": 124,
+        "rank": 4,
+        "age": 65,
+        "country": "United States",
+        "source": "Python",
+        "industry": "Technology",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGgSt4cP5k02klGUgihbgirrNaxZYP4TmmTeMTD1FxtaAK_eclwmAXTP8DDYyjHvL1wdg&usqp=CAU"
+    },
+    {
+        "name": "Mark Zuckerberg",
+        "net_worth": 97,
+        "rank": 5,
+        "age": 36,
+        "country": "United States",
+        "source": "Django",
+        "industry": "Technology",
+        "img": "https://komao.org.uk/wp-content/uploads/2019/10/private-gp-1.jpg"
+    },
+    {
+        "name": "Warren Buffett",
+        "net_worth": 96,
+        "rank": 6,
+        "age": 90,
+        "country": "United States",
+        "source": "Bangla",
+        "industry": "Finance & Investments",
+        "img": "https://i.ibb.co/HXxL0ny/1.png"
+    },
+    {
+        "name": "Larry Ellison",
+        "net_worth": 93,
+        "rank": 7,
+        "age": 76,
+        "country": "United States",
+        "source": "Data Structure",
+        "industry": "Technology",
+        "img": "https://img.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg?size=626&ext=jpg"
+    },
+    {
+        "name": "Larry Page",
+        "net_worth": 92,
+        "rank": 8,
+        "age": 48,
+        "country": "United States",
+        "source": "Algorithm",
+        "industry": "Technology",
+        "img": "https://patients.smarterhealth.sg/wp-content/uploads/2019/11/Smarter-Health-General-Practitioner-or-Specialist-Doctor.jpg"
+    },
+    {
+        "name": "Sergey Brin",
+        "net_worth": 89,
+        "rank": 9,
+        "age": 47,
+        "country": "United States",
+        "source": "Algorithm",
+        "industry": "Technology",
+        "img": "https://media.istockphoto.com/photos/portrait-of-mature-male-doctor-wearing-white-coat-standing-in-picture-id1203995945?k=20&m=1203995945&s=612x612&w=0&h=g0_ioNezBqP0NXrR_36-A5NDHIR0nLabFFrAQVk4PhA="
+    }
+]

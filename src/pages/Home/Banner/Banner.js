@@ -18,8 +18,8 @@ const Banner = () => {
 
                 <div class="carousel-item">
                     <img src="https://i.ibb.co/By4S0Zy/banner3.png" class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block bg-dark mb-5">
-                        <h4 className='text-white'>Few industries match the scale of health care. In the United States alone, an estimated 85% of the population has at least 1 health care encounter annually and at least one quarter of these people experience 4 to 9 encounters annually.</h4>
+                    <div class="carousel-caption d-none d-md-block bg-dark mb-5 rounded">
+                        <h4 className='text-white px-2'>Few industries match the scale of health care. In the United States alone, an estimated 85% of the population has at least 1 health care encounter annually and at least one quarter of these people experience 4 to 9 encounters annually.</h4>
                     </div>
                 </div>
 

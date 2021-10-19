@@ -1,0 +1,14 @@
+.contact:hover{
+    transform: scale(1.05);
+    transition: 2s;
+    background-color: rgb(212, 180, 140);
+}
+
+.contact p strong:hover{
+    color: red;
+}
+
+.get-in-touch:hover{
+    background-color: rgb(212, 180, 140);
+    transition: 3s;
+}

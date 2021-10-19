@@ -47,9 +47,9 @@ const Navbar = () => {
                         </li>
                     </ul>
 
-                    <button className='btn btn-outline-warning me-3'><i class="fas fa-sign-in-alt"></i>Login</button>
+                    <button className='btn btn-outline-warning me-3'><i class="fas fa-sign-in-alt"></i> Login</button>
 
-                    <button className='btn btn-outline-warning'><i class="fas fa-sign-in-alt"></i> Registration</button>
+                    <button className='btn btn-outline-warning'><i class="fas fa-user-plus"></i> Registration</button>
                 </div>
             </div>
         </nav>
