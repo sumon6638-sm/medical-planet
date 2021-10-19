@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import { ToggleButton } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 import './Navbar.css'
@@ -11,13 +9,8 @@ const Navbar = () => {
         borderRadius: '5px',
     }
 
-    const [isLogin, setIsLogin] = useState(false);
+    const { user, logOut, } = useAuth();
 
-    const { user, logOut, handleLogin } = useAuth();
-
-    const logIn = () => {
-        handleLogin();
-    }
 
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-nav">
