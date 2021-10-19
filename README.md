@@ -9,4 +9,4 @@
     2. From here one can know about the treatment and doctor easily.
     3. By this website one can get contact with the hospital by virtually.
     4. By this website the medical administrator can collect data of patient or user.
-    5. From this website one can know about the cost about doctor appointment, medical treatment and service
+    5. From this website one can know about the cost about doctor appointment, medical treatment and service.
