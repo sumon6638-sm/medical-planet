@@ -13,24 +13,23 @@ const GetAppointment = () => {
             .then(res => res.json())
             .then(data => setDoctor(data[appoint]));
     }, [])
-    
-    const appointment = doctor.filter(find => find.rank === appoint);
-    // console.log(appointment);
 
     return (
         <div className="container card">
-            <h2>{appoint}</h2>
             <div className='align-self-center shadow-lg my-4' style={{ width: "500px" }}>
-                <img className='card-img-top img-fluid' style={{ height: "400px", width: '500px' }} src={appointment.img} alt="" />
+                <img className='card-img-top img-fluid' style={{ height: "400px", width: '500px' }} src={doctor.img} alt="" />
                 <div class="card-body">
-                    <h5 class="card-title fw-bold text-center">{appointment.name}</h5>
-                    <p class="card-text">{appointment[0]?.description}</p>
-                    <p class="card-text"><small class="text-muted fw-bold">Total Cost: ${appointment[0]?.net_worth}</small></p>
+                    <h5 class="card-title fw-bold text-center">{doctor.name}</h5>
+                    <p class="card-text fw-bold text-center"><small class="text-muted fw-bold">Total Cost: ${doctor.net_worth}</small></p>
                 </div>
 
                 <div className="text-center mb-3">
-                    <Link to='/treatment'>
-                        <button className='btn btn-danger'>Go to all Treatment</button>
+                    <Link to='/contact'>
+                        <button className='btn btn-danger'>Get an Appoint</button>
+                    </Link><br />
+
+                    <Link to='/doctors'>
+                        <button className='btn btn-outline-warning text-dark mt-4'>Show all Doctor</button>
                     </Link>
                 </div>
             </div>

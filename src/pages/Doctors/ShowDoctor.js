@@ -14,7 +14,7 @@ const ShowDoctor = (props) => {
                     <h5 class ="card-title">{name}</h5>
                     <p class="card-text">Fee: {net_worth}</p>
 
-                    <Link to={dynamicURL}><button className="btn btn-outline-warning text-primary">Get Appoinment</button></Link>         
+                    <Link to={dynamicURL}><button className="btn btn-outline-warning text-primary">Get Appoinment</button></Link>     
                 </div>
             </div>
         </div>
