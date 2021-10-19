@@ -14,7 +14,7 @@ import NotFound from './pages/NotFound/NotFound';
 import Login from './pages/Logins/Login/Login';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './pages/Logins/PrivateRoute/PrivateRoute';
-import Register from './pages/Logins/Registration/Register';
+
 import GetAppointment from './pages/Doctors/GetAppointment/GetAppointment';
 
 
@@ -43,10 +43,6 @@ function App() {
               <Login></Login>
             </Route>
 
-            <Route exact path='/register'>
-              <Register></Register>
-            </Route>
-
             <PrivateRoute exact path='/treatment/:details'>
               <Service></Service>
             </PrivateRoute>
@@ -63,9 +59,9 @@ function App() {
               <Doctors></Doctors>
             </Route>
 
-            <Route exact path='/doctor/:appoint'>
+            <PrivateRoute exact path='/doctor/:appoint'>
               <GetAppointment></GetAppointment>
-            </Route>
+            </PrivateRoute>
 
             <Route exact path='/about'>
               <About></About>
