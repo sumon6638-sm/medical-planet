@@ -111,8 +111,8 @@ const Login = () => {
     }
 
     return (
-        <div className="container-fluid login-form">
-            <div className='card shadow-lg my-5 w-50 mx-auto'>
+        <div className="container login-form">
+            <div className='card shadow-lg my-5 mx-auto'>
                 <form onSubmit={handleRegistration} className='row'>
                     <h2 className='text-success fw-bold mt-3 text-center'>Please {isLogin ? 'Login' : 'Register' } </h2>
                     
@@ -178,7 +178,7 @@ const Login = () => {
                     
 
                     <div className="ps-2">
-                        <div className="form-check mt-3 mx-auto" style={{ }}>
+                        <div className="form-check mt-3 mx-auto row">
                             <div className="col-md-4">
                                 <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
                             </div>
