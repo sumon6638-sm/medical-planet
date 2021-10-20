@@ -7,18 +7,18 @@ const AllMedicalService = (props) => {
     const dynamicUrl = `/medicalService/${id}`
 
     return (
-        <div class="row g-0 my-3 shadow rounded">
-            <div class="col-md-4">
-                <img src={img} class="img-fluid w-100 rounded" style={{height: "250px"}} alt="..."/>
+        <div className="row g-0 my-3 shadow rounded">
+            <div className="col-md-4">
+                <img src={img} className="img-fluid w-100 rounded" style={{height: "250px"}} alt="..."/>
             </div>
-            <div class="col-md-8">
-                <div class="card-body">
-                    <h5 class="card-title">{serviceTitle}</h5>
-                    <p class="card-text">{description}</p>
+            <div className="col-md-8">
+                <div className="card-body">
+                    <h5 className="card-title">{serviceTitle}</h5>
+                    <p className="card-text">{description}</p>
                     <div className="text-center mb-3">
-                        <Link to={dynamicUrl}><button className='btn btn-success text-warning fw-bold'><i class="fas fa-info-circle"></i>Read Details...</button></Link>
+                        <Link to={dynamicUrl}><button className='btn btn-success text-warning fw-bold'><i className="fas fa-info-circle"></i>Read Details...</button></Link>
                     </div>
-                    <p class="card-text"><small class="text-muted"><strong>Cost: ${cost}</strong></small></p>
+                    <p className="card-text"><small className="text-muted"><strong>Cost: ${cost}</strong></small></p>
                 </div>
             </div>
         </div>

@@ -4,15 +4,15 @@ const ShowMedicalService = (props) => {
     const { id, serviceTitle, cost, description, img } = props.service
 
     return (
-        <div class="col">
-            <div class="card h-100 shadow">
-                <img src={img} class="card-img-top img-fluid rounded-3 px-5" style={{height: '250px'}} alt="..."/>
-                <div class ="card-body">
-                <h5 class ="card-title">{serviceTitle}</h5>
-                <p class ="card-text">{description}</p>
+        <div className="col">
+            <div className="card h-100 shadow">
+                <img src={img} className="card-img-top img-fluid rounded-3 px-5" style={{height: '250px'}} alt="..."/>
+                <div className="card-body">
+                <h5 className="card-title">{serviceTitle}</h5>
+                <p className="card-text">{description}</p>
                 </div>
-                <div class ="card-footer">
-                    <small class="text-muted">Total Cost: ${cost}</small>
+                <div className="card-footer">
+                    <small className="text-muted">Total Cost: ${cost}</small>
                 </div>
             </div>
         </div>
@@ -27,14 +27,14 @@ export default ShowMedicalService;
 
 // const service =
 //     `
-//             <div class="accordion-item">
-//                 <h2 class="accordion-header" id="heading${id}">
-//                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${id}" aria-expanded="true" aria-controls="collapse${id}">
+//             <div className="accordion-item">
+//                 <h2 className="accordion-header" id="heading${id}">
+//                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${id}" aria-expanded="true" aria-controls="collapse${id}">
 //                         ${serviceTitle}
 //                     </button>
 //                 </h2>
-//                 <div id="collapse${id}" class="accordion-collapse collapse show" aria-labelledby="heading${id}" data-bs-parent="#accordionExample">
-//                     <div class="accordion-body">
+//                 <div id="collapse${id}" className="accordion-collapse collapse show" aria-labelledby="heading${id}" data-bs-parent="#accordionExample">
+//                     <div className="accordion-body">
 //                         <div>
 //                             <img src={img} className='img-fluid' alt="" />
 //                         </div>

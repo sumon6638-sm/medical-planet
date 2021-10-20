@@ -18,7 +18,7 @@ const MedicalService = () => {
                 <img src="https://images.squarespace-cdn.com/content/v1/5d036008358ba200010cda0c/1562797699110-34P8VE5OLLMMON9RQ54K/healthcare-services-redding-ca.jpg?format=2500w" className='img-fluid' alt="" />
             </div>
 
-            <div class="my-3">
+            <div className="my-3">
                 <h2 className='text-center'>We try to give you the best medical service</h2>
                 {
                     services.map(service =>

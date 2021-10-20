@@ -18,9 +18,9 @@ const GetAppointment = () => {
         <div className="container card">
             <div className='align-self-center shadow-lg my-4' style={{ width: "500px" }}>
                 <img className='card-img-top img-fluid' style={{ height: "400px", width: '500px' }} src={doctor.img} alt="" />
-                <div class="card-body">
-                    <h5 class="card-title fw-bold text-center">{doctor.name}</h5>
-                    <p class="card-text fw-bold text-center"><small class="text-muted fw-bold">Total Cost: ${doctor.net_worth}</small></p>
+                <div className="card-body">
+                    <h5 className="card-title fw-bold text-center">{doctor.name}</h5>
+                    <p className="card-text fw-bold text-center"><small className="text-muted fw-bold">Total Cost: ${doctor.net_worth}</small></p>
                 </div>
 
                 <div className="text-center mb-3">

@@ -16,31 +16,31 @@ const About = () => {
                 </div>
 
                 <div className="col-md-6 ms-4 my-auto">
-                    <div class="row text-center">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <div class="card-body bg-primary text-light fw-bold">
-                                    <h1><i class="fab fa-discourse"></i></h1>
+                    <div className="row text-center">
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="card">
+                                <div className="card-body bg-primary text-light fw-bold">
+                                    <h1><i className="fab fa-discourse"></i></h1>
                                     <h2>506+</h2>
                                     <h5>Total Doctor</h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <div class="card-body bg-danger text-light fw-bold">
-                                    <h1><i class="fas fa-trophy"></i></h1>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="card">
+                                <div className="card-body bg-danger text-light fw-bold">
+                                    <h1><i className="fas fa-trophy"></i></h1>
                                     <h2>Award</h2>
                                     <h5>From WHO</h5>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <div class="card-body bg-success text-light fw-bold">
-                                    <h1><i class="fas fa-user-graduate"></i></h1>
+                        <div className="col-lg-4 col-md-6 col-sm-12">
+                            <div className="card">
+                                <div className="card-body bg-success text-light fw-bold">
+                                    <h1><i className="fas fa-user-graduate"></i></h1>
                                     <h2>9560+</h2>
                                     <h5>Operation</h5>
                                 </div>
