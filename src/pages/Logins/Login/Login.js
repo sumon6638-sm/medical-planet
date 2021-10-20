@@ -111,55 +111,103 @@ const Login = () => {
     }
 
     return (
-        <div className="container login-form">
+        <div className="container-fluid login-form">
             <div className='card shadow-lg my-5 w-50 mx-auto'>
-                <form onSubmit={handleRegistration}>
+                <form onSubmit={handleRegistration} className='row'>
                     <h2 className='text-success fw-bold mt-3 text-center'>Please {isLogin ? 'Login' : 'Register' } </h2>
                     
                     {isLogin ?
                         <div className='text-center'>
-                            <label for="validationDefault05" className="form-label text-start me-5">Email:</label>
-                            <input onBlur={handleEmailChange} className='my-1' type="email" name="" id="" placeholder="Your Email" required />
-                            <br />
+                            <div className="row container-fluid">
+                                <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
+                                    <label for="validationDefault05" className="form-label text-start">Email:</label>
+                                </div>
 
-                            <label for="validationDefault05" className="form-label text-start">Password:</label>
-                            <input onBlur={handlePasswordChange} className='my-1 ms-3' type="password" name="" id="" placeholder='Password' required />
-                            <br />
+                                <div className="col-xxl-8 col-md-8 col-sm-12 col-xs-12">
+                                    <input onBlur={handleEmailChange} className='container' type="email" name="" id="" placeholder="Your Email" required />
+                                    <br />
+                                </div>
+                            </div>
+
+                            <div className="row container-fluid">
+                                <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
+                                    <label for="validationDefault05" className="form-label text-start">Password:</label>
+                                </div>
+
+                                <div className="col-xxl-8 col-md-8 col-sm-12 col-xs-12">
+                                    <input onBlur={handlePasswordChange} className='container-fluid' type="password" name="" id="" placeholder='Password' required />
+                                    <br />
+                                </div>
+                            </div>
                         </div>
                         :
                         <div className='text-center'>
-                            <label for="validationDefault05" className="form-label text-start me-5">Name:</label>
-                            <input onBlur={handleNameChange} className='my-1' type="text" name="" id="" placeholder="Your Name" required /><br />
+                            <div className="row container-fluid">
+                                <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
+                                    <label for="validationDefault05" className="form-label text-start">Name:</label>
+                                </div>
 
-                            <label for="validationDefault05" className="form-label text-start me-5">Email:</label>
-                            <input onBlur={handleEmailChange} className='my-1' type="email" name="" id="" placeholder="Your Email" required />
-                            <br />
+                                <div className="col-xxl-8 col-md-8 col-sm-12 col-xs-12">
+                                    <input onBlur={handleNameChange} className='container' type="text" name="" id="" placeholder="Your Name" required /><br />
+                                </div>
+                            </div>
+                            
+                            <div className="row container-fluid">
+                                <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
+                                    <label for="validationDefault05" className="form-label text-start">Email:</label>
+                                </div>
 
-                            <label for="validationDefault05" className="form-label text-start">Password:</label>
-                            <input onBlur={handlePasswordChange} className='my-1 ms-3' type="password" name="" id="" placeholder='Password' required />
-                            <br />
+                                <div className="col-xxl-8 col-md-8 col-sm-12 col-xs-12">
+                                    <input onBlur={handleEmailChange} className='container' type="email" name="" id="" placeholder="Your Email" required />
+                                    <br />
+                                </div>
+                            </div>
+
+                            <div className="row container-fluid">
+                                <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
+                                    <label for="validationDefault05" className="form-label text-start">Password:</label>
+                                </div>
+
+                                <div className="col-xxl-8 col-md-8 col-sm-12 col-xs-12">
+                                    <input onBlur={handlePasswordChange} className='container' type="password" name="" id="" placeholder='Password' required />
+                                    <br />
+                                </div>
+                            </div>
                         </div>
                     }
                     
 
-                    <div className="form-check ms-5 mt-4">
-                        <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
-                        <label className="form-check-label" htmlFor="gridCheck1">
-                            Already Registered ?
-                        </label>
+                    <div className="form-check row ms-3 mt-3">
+                        <div className="col-md-4">
+                            <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+                        </div>
+
+                        <div className="col-md-8">
+                            <label className="form-check-label container" htmlFor="gridCheck1">
+                                Already Registered ?
+                            </label>
+                        </div>
+                        
+                        
                     </div>
 
-                    <div className='text-danger ms-5 my-2'>
-                        {error}
+                    <div className='row text-danger ms-2 my-2'>
+                        <div className='cols-12'>
+                            {error}
+                        </div>
                     </div>
 
-                    <div className="text-center my-3">
-                        <button type="submit" className='btn btn-success'>
-                            {isLogin ?
-                                'Login' : 'Register'}
-                        </button>
+                    <div className="container row justify-content-evenly text-center">
+                        <div className='col-md-4 col-sm-12 my-3'>
+                            <button type="submit" className='btn btn-success'>
+                                {isLogin ?
+                                    'Login' : 'Register'}
+                            </button>
+                        </div>
 
-                        <button type='button' onClick={handleResetPassword} className="btn btn-danger ms-3">Reset Password</button>
+                        <div className='col-md-4 col-sm-12 my-3'>
+                            <button type='button' onClick={handleResetPassword} className="btn btn-danger ms-3">Reset Password</button>
+                        </div>
                     </div>
                 </form>
 

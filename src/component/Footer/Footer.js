@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-dark py-5'>
-            <div className="container row">
+            <div className="row mx-3">
                 <div className="col-md-4">
                     <h2 className='text-warning'>CONNECTED WITH US</h2>
                     <div className="mt-2">
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="col-md-8">
                     <h3 className='text-start ms-5 text-warning'>USEFUL LINKS</h3>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-8">
                             <div className="text-light text-start ms-5">
                                 <li className='my-3'>Bangladesh University</li>
                                 <li className='my-3'>Ministry Of Education</li>
@@ -29,7 +29,7 @@ const Footer = () => {
                                 <li className='my-3'>World Health Organizaiton</li>
                             </div>
                         </div>
-                        <div className="col-md-6 text-warning">
+                        <div className="col-md-4 text-warning">
                             <h3 className='text-success'>Stay Connected</h3>
                             <form>
                                 <div className="mb-3">
