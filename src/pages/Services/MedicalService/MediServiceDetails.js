@@ -17,8 +17,8 @@ const MediServiceDetails = () => {
     console.log(disease);
 
     return (
-        <div className="container card">
-            <div className='align-self-center shadow-lg my-4' style={{ width: "500px" }}>
+        <div className="container">
+            <div className='align-self-center shadow-lg my-4 rounded'>
                 <img className='card-img-top img-fluid' style={{ height: "400px", width: '500px' }} src={disease[0]?.img} alt="" />
                 <div className="card-body">
                     <h5 className="card-title fw-bold text-center">{disease[0]?.serviceTitle}</h5>
@@ -26,7 +26,7 @@ const MediServiceDetails = () => {
                     <p className="card-text"><small className="text-muted fw-bold">Total Cost: ${disease[0]?.cost}</small></p>
                 </div>
 
-                <div className="text-center mb-3">
+                <div className="text-center pb-3">
                     <Link to='/medicalServices'>
                         <button className='btn btn-danger'>Go to all Medical Service</button>
                     </Link>

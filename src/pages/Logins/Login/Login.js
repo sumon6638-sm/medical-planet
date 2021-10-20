@@ -177,14 +177,14 @@ const Login = () => {
                     }
                     
 
-                    <div className="ms-2">
-                        <div className="container form-check row mt-3 mx-auto" style={{ width: '450px' }}>
+                    <div className="ps-2">
+                        <div className="form-check mt-3 mx-auto" style={{ }}>
                             <div className="col-md-4">
                                 <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
                             </div>
 
-                            <div className="col-md-8">
-                                <label className="form-check-label container" htmlFor="gridCheck1">
+                            <div className="col-md-6">
+                                <label className="form-check-label" htmlFor="gridCheck1">
                                     Already Registered ?
                                 </label>
                             </div>

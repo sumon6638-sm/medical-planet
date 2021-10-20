@@ -8,10 +8,10 @@ const ShowTreatment = (props) => {
     const dynamicUrl = `/treatment/${id}`
 
     return (
-        <div className="card mb-3 shadow" style={{maxWidth: "540px"}}>
+        <div className="container card mb-3 shadow" style={{}}>
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img src={img} className="img-fluid rounded-start h-100 w-100" alt="..."/>
+                    <img src={img} className="img-fluid rounded-start h-100" alt="..."/>
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
