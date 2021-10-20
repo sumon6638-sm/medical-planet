@@ -177,23 +177,23 @@ const Login = () => {
                     }
                     
 
-                    <div className="form-check row ms-3 mt-3">
-                        <div className="col-md-4">
-                            <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+                    <div className="ms-2">
+                        <div className="container form-check row mt-3 mx-auto" style={{ width: '450px' }}>
+                            <div className="col-md-4">
+                                <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+                            </div>
+
+                            <div className="col-md-8">
+                                <label className="form-check-label container" htmlFor="gridCheck1">
+                                    Already Registered ?
+                                </label>
+                            </div>
                         </div>
 
-                        <div className="col-md-8">
-                            <label className="form-check-label container" htmlFor="gridCheck1">
-                                Already Registered ?
-                            </label>
-                        </div>
-                        
-                        
-                    </div>
-
-                    <div className='row text-danger ms-2 my-2'>
-                        <div className='cols-12'>
-                            {error}
+                        <div className='row text-danger my-2 text-center'>
+                            <div className='cols-12'>
+                                {error}
+                            </div>
                         </div>
                     </div>
 
