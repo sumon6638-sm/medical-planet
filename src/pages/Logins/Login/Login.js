@@ -202,7 +202,7 @@ const Login = () => {
                         <div className='col-md-4 col-sm-12 my-3'>
                             <button type="submit" className='btn btn-success'>
                                 {isLogin ?
-                                    'Login' : 'Register'}
+                                    'Login' : 'Register & Login'}
                             </button>
                         </div>
 
