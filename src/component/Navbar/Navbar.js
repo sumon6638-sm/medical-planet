@@ -11,7 +11,6 @@ const Navbar = () => {
 
     const { user, logOut, } = useAuth();
 
-
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark my-nav">
             <div className="container-fluid">
@@ -49,6 +48,8 @@ const Navbar = () => {
                             <NavLink className='text-warning text-decoration-none nav-link' activeStyle={activeTab} to='/contact'>CONTACT US</NavLink>
                         </li>
                     </ul>
+
+                    {/* <button onClick={handleLogin} className='btn btn-outline-warning me-3'><i className="fas fa-sign-in-alt"></i> Login/Register</button> */}
 
                     {/* <div>
                         <Link to='/login'>

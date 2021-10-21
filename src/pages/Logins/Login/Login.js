@@ -76,6 +76,7 @@ const Login = () => {
                 setError('');
                 verifyEmail();
                 setUserName();
+                history.push(redirect_url);
             })
             .catch(error => {
                 setError(error.message);
@@ -98,8 +99,8 @@ const Login = () => {
         sendPasswordResetEmail(auth, email)
             .then(result => { })
     }
-    
-    
+
+
     // for login with google
     const { signInUsingGoogle } = useAuth();
 
@@ -107,15 +108,15 @@ const Login = () => {
         signInUsingGoogle()
             .then(result => {
                 history.push(redirect_url);
-        })
+            })
     }
 
     return (
-        <div className="container login-form">
-            <div className='card shadow-lg my-5 mx-auto'>
+        <div className="container-fluid login-form">
+            <div className='card shadow-lg my-5 w-50 mx-auto'>
                 <form onSubmit={handleRegistration} className='row'>
-                    <h2 className='text-success fw-bold mt-3 text-center'>Please {isLogin ? 'Login' : 'Register' } </h2>
-                    
+                    <h2 className='text-success fw-bold mt-3 text-center'>Please {isLogin ? 'Login' : 'Register'} </h2>
+
                     {isLogin ?
                         <div className='text-center'>
                             <div className="row container-fluid">
@@ -151,7 +152,7 @@ const Login = () => {
                                     <input onBlur={handleNameChange} className='container' type="text" name="" id="" placeholder="Your Name" required /><br />
                                 </div>
                             </div>
-                            
+
                             <div className="row container-fluid">
                                 <div className="col-xxl-4 col-md-4 col-sm-12 col-xs-12">
                                     <label for="validationDefault05" className="form-label text-start">Email:</label>
@@ -175,12 +176,12 @@ const Login = () => {
                             </div>
                         </div>
                     }
-                    
 
-                    <div className="ps-2">
-                        <div className="form-check mt-3 mx-auto row">
+
+                    <div className="container px-2">
+                        <div className="container-fluid form-check mt-3">
                             <div className="col-md-4">
-                                <input onChange={toggleLogin} className="form-check-input" type="checkbox" id="gridCheck1" />
+                                <input onChange={toggleLogin} className="form-check-input ms-2" type="checkbox" id="gridCheck1" />
                             </div>
 
                             <div className="col-md-6">
