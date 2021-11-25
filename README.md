@@ -2,7 +2,7 @@
 
 ## Medical Planet [Live Site Link](https://medical-planet-sumon6638.web.app/)
 
-## [Repository Link](https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-sumon6638-sm)
+## [Repository Link](https://github.com/sumon6638-sm/medical-planet)
 
 ### Benefits of this Website:
     1. This is an medical treatment and hospitality based website.
